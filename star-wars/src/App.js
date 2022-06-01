@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
+import  Router  from './routes/Routes';
 
-function App() {
+
+const  App = () => {
   return (
-    <div>Star Wars </div>
+    <div>
+     <Router/>
+    </div>
   )
 }
 
